@@ -1,0 +1,246 @@
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-7 {
+    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    .btn-7 span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .btn-7:before,
+    .btn-7:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7:before{
+       height: 0%;
+       width: 2px;
+    }
+    .btn-7:after {
+      width: 0%;
+      height: 2px;
+    }
+    .btn-7:hover{
+      color: rgba(251,75,2,1);
+      background: transparent;
+    }
+    .btn-7:hover:before {
+      height: 100%;
+    }
+    .btn-7:hover:after {
+      width: 100%;
+    }
+    .btn-7 span:before,
+    .btn-7 span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7 span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .btn-7 span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .btn-7 span:hover:before {
+      height: 100%;
+    }
+    .btn-7 span:hover:after {
+      width: 100%;
+    }
+   
+    .btn-7
+    {
+    position: relative;
+   top: 700px;
+    }
+
+
+
+
+
+
+
+    .contenedor {
+      height: 100px;
+      padding: 5% 0;
+    }
+    
+    h1 {
+      color: #FCFBFA;
+    }
+    
+    .container_foto {
+      background-color: rgba(57, 62, 93, 0.7);
+      padding: 0;
+      overflow: hidden;
+      max-width: 300px;
+      height: 400px;
+      margin: 5px;
+    position: relative
+    }
+    
+    .container_foto article {
+      padding: 10%;
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    
+    .container_foto h2 {
+      color: #fff;
+      font-weight: 800;
+      font-size: 25px;
+      border-bottom: #fff solid 1px;
+    }
+    
+    .container_foto h4 {
+      font-weight: 300;
+      color: #fff;
+      font-size: 16px;
+    }
+    
+    .container_foto img {
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.4;
+      -webkit-transition: all 4s ease;
+      -moz-transition: all 4s ease;
+      -o-transition: all 4s ease;
+      -ms-transition: all 4s ease;
+      transition: all 4s ease;
+    }
+    
+    
+    
+ 
+    
+    /*hovers*/
+    
+    .container_foto:hover {
+      cursor: pointer;
+    }
+    
+    .container_foto:hover img {
+      opacity: 0.1;
+      transform: scale(1.5);
+    }
+    
+    .container_foto:hover article {
+      transform: translate(2px, -69px);
+      -webkit-transform: translate(2px, -69px);
+      -moz-transform: translate(2px, -69px);
+      -o-transform: translate(2px, -69px);
+      -ms-transform: translate(2px, -69px);
+    }
+    
+ 
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color:bisque;
+}
+    
+    h2,h4{
+      position: relative;
+      right: 10px;
+    }
+
+
+
+
+
+    .a1{
+      position: relative;
+      bottom: 230px;
+      left: 60px;
+    }
+    .p1{
+      position: relative;
+      left: 400px;
+      bottom: 620px;
+    }
+
+    .d0{
+      position: relative;
+      bottom: 340px;
+    }
+    .d1{
+      position: relative;
+      left: 350px;
+      bottom: 468px;
+    }
+    .d2{
+      position: relative;
+      left: 700px;
+      bottom: 594px;
+    }
+    .d3{
+      position: relative;
+      left: 1050px;
+      bottom: 722px;
+    }
+    .a2{
+      position: relative;
+      bottom: 310px;
+      left: 399px;
+    }
+    .a3{
+      position: relative;
+      left: 750px;
+      bottom: 395px;
+    }
+    .a4{
+      position: relative;
+      bottom: 478px;
+      left: 1100px;
+    }
+
